@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",   //says files will be emittted into this directory
+      "noImplicitAny": true, //when type cannot be infered throw an error
+      "module": "es6",       // sets the module system for the program
+      "target": "es5",       // sets which js features are left intact and which are compiled down
+      "jsx": "react",        //controls how JSX constructs are emitted in JS files. Says to transpile to React.createElement
+      "allowJs": true        //allows for javascript files to be imported instead of just .ts and .tsx files
+    }
+  }
